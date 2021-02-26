@@ -7,8 +7,8 @@ interface CountdownContextData {
     seconds: number;
     hasFinished: boolean;
     isActive: boolean;
-    startCountdown: () => {};
-    resetCountdown: () => {};
+    startCountdown: () => void;
+    resetCountdown: () => void;
 
 }
 
